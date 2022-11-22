@@ -525,7 +525,7 @@ img {
     display: flex;
 }
 
-.footer-company{
+.footer-company {
     width: 231px;
 }
 
@@ -947,10 +947,10 @@ img {
     border-radius: 2px;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 
     transition: border var(--time) var(--cubic),
-    background-color var(--time) var(--cubic);
+        background-color var(--time) var(--cubic);
 }
 
 .label-span .icon {
@@ -958,7 +958,7 @@ img {
     transition: fill var(--time) var(--cubic);
 }
 
-.modal-checkbox:checked + .checkbox-label .label-span {
+.modal-checkbox:checked+.checkbox-label .label-span {
     border: none;
     background-color: var(--acсent-color)
 }
@@ -988,7 +988,7 @@ img {
     margin: 0 auto;
     width: 200px;
     padding: 10px;
-    background: #188CE8;
+    background: var(--acсent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
@@ -998,4 +998,10 @@ img {
     letter-spacing: 0.06em;
 
     color: var(--bg-main);
+    transition: background var(--time) var(--cubic);
+}
+
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+    background: #188CE8;
 }
